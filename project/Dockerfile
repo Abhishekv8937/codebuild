@@ -5,7 +5,7 @@ FROM python:3.8
 WORKDIR /app
 
 # Install the project dependencies
-RUN pip install -r requirements.txt
+RUN pip install flask
 
 # Copy the application code into the container
 COPY . .
